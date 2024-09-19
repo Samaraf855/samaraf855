@@ -1,0 +1,31 @@
+:root{
+    --cor-principal: rgb(220, 220, 241);
+    --cor-secundaria: rgb(224, 224, 101);
+    --botao-azul: rgb(233, 15, 51);
+    --cor-fundo: rgb(84, 228, 84);
+    
+}
+body{
+    background-color:var(--cor-fundo) rgb(241, 119, 241)
+}
+.principal{
+   background-image: url("Background.png");
+   background-repeat: no-repeat;
+   background-size:containt;
+}
+.container{
+     height;100vh;
+     display: grid;
+     grid-template-columns: 50% 50%;
+}
+.container__botao{
+    background-color: var(--botao-azul);
+    border-radius: 50x;
+    padding: 1em;
+    color: var(--cor-principal);
+    display: block;
+}
+.container__botao{
+    background-color: transparent;
+    border: 2px solid white;
+}
